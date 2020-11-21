@@ -5,7 +5,7 @@ body {
     overflow-y: hidden;   
 }
 
-#banner1 {
+/**#banner1 {
     display : block;
     background-color: black;
     height: 50px;
