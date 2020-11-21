@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;   
+    overflow-y: hidden;   
+}
+
+#banner1 {
+    display : block;
+    background-color: black;
+    height: 50px;
+    width: 100%;
+}
+
+#menu {
+    min-width: 500px;
+    width: 100%;
+    height: 80px;
+    position: relative;
+    background-color: black;
+}
+
+#menu ul {
+    float: left;
+    left: 50%;
+    position: relative;
+    margin-left: -60px;
+}
+
+#menu ul li {
+    float: left;
+    list-style-type: none;
+    margin-left: 30px;
+    position: relative;
+    left: -50%
+}
+
+#menu ul li a {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    transition: 0.8s all;   
+    height: 50px;
+    width: 150px;
+    text-align: center;
+    background-color: black;
+    padding-top: 0px;
+    font-size: large;
+    font-family: Arial Black, Impact, 'Trebuchet MS';
+}
+
+#menu ul li a:hover {
+    text-align: center;
+    position: relative;
+    bottom: 10px;
+    color: black;
+    background-color: black;
+    transition: 0.5s all;
+}
+
+#footer {
+    text-align: center;
+    display: block;
+    background-color: black;
+    height: 80px;
+    margin-top: 590px;
+}
+
+#footer p {
+    color: black;
+    font-size: small;
+    font-family: Arial Black;
+    position: relative;
+    text-align: center;
+    top: 50px;
+}
+
+#video object embed {
+    position: center;
+
+}
